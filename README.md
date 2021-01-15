@@ -30,13 +30,28 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain how to build stateful class components.
 
+<!-- Begin by using the "class" syntax, followed by the name, then extend it to 'React.Component'. A constructor is needed as well as a super function. Then, Instead of using a const to define slices of state, use the key word "state" and define your initial state.   -->
+
 2. Describe the different phases of the component lifecycle.
+
+<!-- 1. Birth and Mounting: When the foundation of the component is being built from the ground up. Initial data is accessed and defined on the constructor.
+
+2. Growth and Updating: The component data is updated. This is also when any state is set, and unless specified, the component is rendered again. 
+
+3. Death: The component is removed from the screen, and effectively, dies.
+ -->
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
+<!-- componentDidMount() is a function that runs a check on wether or not its mounted before running a nested function.  -->
+
 4. Define stateful logic.
 
+<!-- Stateful logic is when the application stores slices of state and alters them based on user input or a change in values -->
+
 5. Describe how to test a React component with React Testing Library.
+
+<!-- Similar to when we learned cypress for testing, we use certain syntax such as queryBy, or Findby to "select" parts of the screen and chain code to expect certain functionality or results. -->
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
